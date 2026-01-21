@@ -76,7 +76,7 @@ const ChatbotWidget = () => {
 
       setCustomQuery('');
     } catch (err) {
-      setError('Unable to process your query. Please try again or contact support.');
+      setError('Unable to process your query. Please try again or contact support at +91 9182879315.');
       console.error('API Error:', err);
     } finally {
       setIsLoading(false);
@@ -166,7 +166,7 @@ const ChatbotWidget = () => {
                 {availableQuestions.length === 0 && (
                   <div className="mt-4 bg-gray-800 p-3 rounded-xl text-gray-300 text-sm">
                     Need more information? Please contact Krittya directly:<br />
-                    Phone: +91 80132 97449<br />
+                    Phone: +91 9182879315<br/>
                     Email: hello@krittya.com
                   </div>
                 )}

@@ -26,7 +26,7 @@ export const knowledgeBase = {
     },
     {
       id: 'q5',
-      text: 'Where is Krittya originated from?',
+      text: 'Where is Krittya office at ?',
       answer: 'Krittya is based in Kolkata, India, with its office located at Park Street.',
       children: ['q5a']
     }
@@ -113,7 +113,7 @@ export const knowledgeBase = {
     'q5a': {
       id: 'q5a',
       text: 'How can I contact Krittya?',
-      answer: 'You can contact Krittya via phone or email, or visit the Park Street office in Kolkata.',
+      answer: 'You can contact Krittya via phone 9182879315 or or visit the Park Street office in Kolkata.',
       children: []
     }
   }
